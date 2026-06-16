@@ -17,11 +17,10 @@ RemiVet se compone de:
 
 | Componente | Función |
 |------------|---------|
-| **Panel web** (`remivet-frontend`) | Interfaz operativa en el navegador |
-| **API** (`remivet-backend`) | Lógica de negocio, permisos y base de datos |
+| **Panel web** | Interfaz operativa en el navegador |
 | **RemiAppManager** (opcional) | Licencias, mensajes y tickets de soporte centralizados |
 
-El acceso al panel se controla por **roles**. Cada rol tiene una lista de **secciones** (permisos granulares). Sin la sección adecuada, el menú no muestra la opción y la API rechaza la operación.
+El acceso al panel se controla por **roles**. Cada rol tiene una lista de **secciones** (permisos granulares). Sin la sección adecuada, el menú no muestra la opción y el sistema no permite realizar la acción.
 
 ## Mapa del menú
 
@@ -69,4 +68,4 @@ Menú de usuario (esquina superior)
 
 ## Versiones
 
-Esta documentación corresponde a **RemiVet v1.1.0** (integración RemiAppManager, webhooks, soporte plataforma).
+Esta documentación corresponde a **RemiVet v1.1.0** (integración RemiAppManager y soporte plataforma).

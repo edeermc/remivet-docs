@@ -63,18 +63,6 @@ Sin integración, la campana y los tickets no reciben datos de la plataforma.
 
 ---
 
-## Webhooks (referencia para administradores)
-
-El backend expone:
-
-```
-POST /api/platform/webhooks/inbound
-```
-
-RemiAppManager envía eventos firmados (mensajes, tickets, cambios de licencia). La URL debe configurarse en el panel del cliente en RemiAppManager.
-
----
-
 ## Resumen
 
 | Función | Permiso |

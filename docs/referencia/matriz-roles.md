@@ -39,19 +39,6 @@ Tabla de referencia rápida: qué secciones trae cada rol predefinido al instala
 
 ---
 
-## Usuarios demo (solo desarrollo)
-
-| Email | Rol | Contraseña |
-|-------|-----|------------|
-| `admin@remivet.local` | Administrador | `password` |
-| `vet@remivet.local` | Veterinario | `password` |
-| `cajero1@remivet.local` | Cajero | `password` |
-| `gerente.main@remivet.local` | Gerente de sucursal | `password` |
-
-En producción el administrador se crea con `INITIAL_ADMIN_EMAIL` y `INITIAL_ADMIN_PASSWORD`.
-
----
-
 ## Matriz menú → permiso
 
 | Menú | Permiso(s) |

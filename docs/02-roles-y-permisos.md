@@ -17,7 +17,7 @@ RemiVet controla el acceso con **roles**. Cada rol tiene un conjunto de **seccio
 ### Cómo se aplica
 
 1. **Menú lateral** — solo aparecen las entradas para las que el usuario tiene sección.
-2. **API** — cada grupo de rutas exige la sección correspondiente; sin ella, responde 403.
+2. **Permisos** — si intentas una acción sin la sección correspondiente, el sistema la bloquea.
 3. **Almacenes** — inventario, POS y reportes filtran por almacén según asignación del usuario.
 4. **Cajero** — además del rol, la interfaz restringe al POS y al perfil personal.
 5. **Veterinario vinculado** — si el usuario está ligado a un registro de médico, puede ver solo sus propias citas/consultas (salvo que tenga recepción o sea admin).
@@ -26,7 +26,7 @@ RemiVet controla el acceso con **roles**. Cada rol tiene un conjunto de **seccio
 
 ## Roles predefinidos
 
-Estos roles se crean en el primer despliegue (`RoleSeeder`). Puedes editarlos o crear roles nuevos en **Configuración → Usuarios y roles → Roles**.
+Estos roles vienen **predefinidos** en el sistema. Puedes editarlos o crear roles nuevos en **Configuración → Usuarios y roles → Roles**.
 
 ### Administrador (`admin`)
 

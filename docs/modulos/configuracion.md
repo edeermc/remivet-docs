@@ -47,7 +47,7 @@
 | Colores | Barra lateral, texto, color primario y acento |
 | Vista previa | Cambios visibles al guardar |
 
-La pantalla de login consume estos datos vía API pública (`GET /api/system-settings`).
+Los cambios se ven de inmediato para todos los usuarios, incluida la pantalla de inicio de sesión.
 
 ---
 
@@ -60,18 +60,18 @@ La pantalla de login consume estos datos vía API pública (`GET /api/system-set
 
 | Campo | Descripción |
 |-------|-------------|
-| URL de la plataforma | Base de RemiAppManager (sin `/api`) |
-| Slug del cliente | Identificador del cliente en la plataforma |
-| Secreto de API | Para verificación de licencia y webhooks |
-| Probar conexión | Valida slug y secreto antes de operar |
+| URL de la plataforma | Dirección web de RemiAppManager que te indicó soporte |
+| Identificador del cliente | Código de tu organización en la plataforma |
+| Secreto de API | Clave para validar la licencia (te la proporciona quien administra la plataforma) |
+| Probar conexión | Comprueba que los datos sean correctos antes de guardar |
 
 **Efectos de la integración:**
 
-- Validación de licencia en cada sesión
-- Recepción de webhooks (`mensajes`, `tickets`, suspensiones)
-- Sincronización con panel central
+- Validación de licencia al iniciar sesión
+- Recepción de mensajes y avisos desde la plataforma
+- Sincronización con el panel central de soporte
 
-Variables de respaldo en servidor: `LICENSE_*` en `.env` del backend.
+> La conexión entre sistemas la configura tu equipo de soporte o plataforma. En el panel solo necesitas pegar los datos que te entreguen y usar **Probar conexión**.
 
 ---
 
@@ -90,7 +90,7 @@ Variables de respaldo en servidor: `LICENSE_*` en `.env` del backend.
 | Precios estética | Servicios de baño, corte, etc. |
 | Extras y promociones | Complementos y ofertas en citas |
 
-> La clave `clinic.scheduling` existe en roles pero **no se usa** en rutas; todo el scheduling administrativo va con `config.system`.
+> La opción `clinic.scheduling` en roles es heredada y no se usa por separado; los horarios de citas se administran con permiso `config.system`.
 
 ---
 

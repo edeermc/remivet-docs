@@ -32,7 +32,7 @@ No aparece como ítem de menú. Al activarlo en un rol, el usuario ignora la lis
 
 ### `clinic.scheduling`
 
-Sigue apareciendo en el formulario de roles por compatibilidad, pero **ninguna ruta API lo exige**. La configuración de horarios de citas usa `config.system`.
+Sigue apareciendo en el formulario de roles por compatibilidad, pero **no concede permisos adicionales**. La configuración de horarios de citas usa `config.system`.
 
 ### Pantallas sin sección obligatoria
 
