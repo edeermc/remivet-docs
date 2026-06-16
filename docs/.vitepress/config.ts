@@ -24,6 +24,7 @@ export default defineConfig({
         text: "Módulos",
         collapsed: false,
         items: [
+          { text: "Resumen de módulos", link: "/modulos/" },
           { text: "Operación", link: "/modulos/operacion" },
           { text: "Consultorio", link: "/modulos/consultorio" },
           { text: "Catálogo", link: "/modulos/catalogo" },

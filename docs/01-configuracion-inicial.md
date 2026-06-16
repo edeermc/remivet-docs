@@ -194,4 +194,4 @@ Reactiva el cliente en RemiAppManager o desactiva temporalmente la verificación
 
 - [Roles y permisos](02-roles-y-permisos.md) — qué puede hacer cada rol
 - [Inicio del panel](03-inicio-panel.md) — pantalla principal y restricciones especiales
-- [Módulos](modulos/) — detalle por área del menú
+- [Módulos](./modulos/) — detalle por área del menú

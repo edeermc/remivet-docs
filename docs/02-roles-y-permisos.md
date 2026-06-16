@@ -136,4 +136,4 @@ Si el usuario es médico:
 
 - [Claves de sección](referencia/claves-de-seccion.md) — listado completo con descripción
 - [Matriz de roles](referencia/matriz-roles.md) — tabla ampliada
-- [Guías por módulo](modulos/) — qué hace cada pantalla y qué permiso pide
+- [Guías por módulo](./modulos/) — qué hace cada pantalla y qué permiso pide
