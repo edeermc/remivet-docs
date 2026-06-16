@@ -6,7 +6,7 @@ Documentación del sistema **RemiVet** (inventario veterinario + consultorio + p
 
 | Audiencia | Empieza por |
 |-----------|-------------|
-| Administrador que instala el sistema | [Configuración inicial](./01-configuracion-inicial) |
+| Administrador de la clínica | [Configuración inicial](./01-configuracion-inicial) |
 | Quien define quién puede hacer qué | [Roles y permisos](./02-roles-y-permisos) |
 | Usuario del panel día a día | [Inicio del panel](./03-inicio-panel) y [módulos](./modulos/operacion) |
 | Referencia técnica de claves | [Claves de sección](./referencia/claves-de-seccion) · [Matriz de roles](./referencia/matriz-roles) |
