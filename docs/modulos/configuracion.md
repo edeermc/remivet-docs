@@ -47,6 +47,8 @@
 | Colores | Barra lateral, texto, color primario y acento |
 | Vista previa | Cambios visibles al guardar |
 
+Los datos de **marca** (nombre, logo, color primario y acento) también se aplican a los **correos transaccionales** de tu clínica (por ejemplo, restablecer contraseña), enviados de forma centralizada por RemiAppManager cuando la integración está activa.
+
 Los cambios se ven de inmediato para todos los usuarios, incluida la pantalla de inicio de sesión.
 
 ---

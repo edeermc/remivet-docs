@@ -18,7 +18,7 @@ RemiVet se compone de:
 | Componente | Función |
 |------------|---------|
 | **Panel web** | Interfaz operativa en el navegador |
-| **RemiAppManager** (opcional) | Licencias, mensajes y tickets de soporte centralizados |
+| **RemiAppManager** (opcional) | Licencias, mensajes, tickets de soporte y **correo transaccional** centralizado |
 
 El acceso al panel se controla por **roles**. Cada rol tiene una lista de **secciones** (permisos granulares). Sin la sección adecuada, el menú no muestra la opción y el sistema no permite realizar la acción.
 

@@ -63,6 +63,18 @@ Sin integración, la campana y los tickets no reciben datos de la plataforma.
 
 ---
 
+## Restablecer contraseña
+
+Si olvidaste tu contraseña de RemiVet:
+
+1. En la pantalla de login, usa **Olvidé mi contraseña**.
+2. Indica el correo de tu usuario en esta clínica.
+3. Recibirás un enlace por correo (con la marca visual de tu clínica si está configurada en **Configuración → Sistema**).
+
+El envío lo gestiona RemiAppManager; si no llega el correo, contacta a quien administra la plataforma o revisa la carpeta de spam.
+
+---
+
 ## Resumen
 
 | Función | Permiso |

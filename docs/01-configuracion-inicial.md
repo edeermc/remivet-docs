@@ -22,6 +22,8 @@ Guía para el **administrador de la clínica**: pasos de configuración en el pa
 | Logo | Subir imagen (aparece en login y barra lateral) |
 | Colores del panel | Color primario, barra lateral, acentos |
 
+Esos mismos datos de marca se usan en los **correos transaccionales** de tu instalación (p. ej. restablecer contraseña), si la plataforma de licencias tiene mensajería habilitada.
+
 Los cambios se ven de inmediato para todos los usuarios.
 
 ### Paso 3 — Usuarios y roles (Configuración → Usuarios y roles)
